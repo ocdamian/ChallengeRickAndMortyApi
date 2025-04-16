@@ -19,6 +19,6 @@ WORKDIR /app
 
 COPY --from=build /out .
 
-EXPOSE 8080
+EXPOSE 8090
 
 ENTRYPOINT ["dotnet", "ChallengeRickAndMortyApi.dll"]
